@@ -8,7 +8,7 @@ st.set_page_config(page_title="For You ❤️", layout="centered")
 # ---------- PASSWORD ----------
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "100123":
+        if st.session_state["password"] == "100124":
             st.session_state["authenticated"] = True
         else:
             st.session_state["authenticated"] = False
